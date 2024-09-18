@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+body{
+    font-size: 100px;
+    background-color:blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#img1{
+    border: radius 50px;
+    width: 600px;
+    height: 600px;
+
+}
+#text{
+    align-self: center;
+    padding: 50px;
+}
+
+h4{
+    font-family: Un;
+    color:crimson;
+    opacity: 0.8;
+}
+
+h2{
+    font-family: UncialAntiqua;
+}
+.description{
+    font-size: 17px;
+    color:black
+    box-shadow: 2px 2px 4px rgba(0,0,0, 0.830);
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 50px;
+
+}
+
+#vitor{
+    font-weight:bold;
+}
+
+#vitor:hover{
+    color: blueviolet;
+    background-color: black;
+    font-size: 34px;
+
+}
+
+#vitor:active{
+    background-color: yellow;
+    font-size: 40px;
+}
